@@ -1,6 +1,8 @@
 # Spotiapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+## Requirements
+
+Generating a token with a POST request to https://accounts.spotify.com/api/token. The request must have a body with a grant_type with the value client_credentials, a client_id and a client_secret from spotify for developers. This token must be added to the spotifyService file in services.
 
 ## Development server
 
